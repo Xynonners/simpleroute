@@ -10,6 +10,7 @@ pip install simpleroute
 
 ### Import
 *Note: as simpleroute uses two dictionaries internally rather than an OOP-based node system,*
+
 *Traverse replaces the standard "Node" class present in most other tree libraries.*
 ```python
 from simpleroute import BaseRouter, Router, Traverse
