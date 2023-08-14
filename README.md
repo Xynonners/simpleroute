@@ -1,4 +1,4 @@
-# SimpleRoute <img src=https://openclipart.org/download/220139 height=45 align=top>
+# SimpleRoute <img src=https://openclipart.org/download/245411 height=40 align=top>
 A simple router / treelib for python.
 
 ## Usage
@@ -27,6 +27,6 @@ path, kwargs, data = router.match("SOME_STR_HERE") #match wildcards, eg /etc/1 t
 ```
 
 ```python
-traverse = Traverse.go(router) #returns an object of Traverse
+traverse = Traverse.go(router, path="SOME_PATH_HERE") #returns an object of Traverse, optional path to go
 #use get_child, get_children, get_parent, get_data, get_path, get_sub to manipulate the object
 ```
