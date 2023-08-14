@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simpleroute"
+version = "0.0.1"
+authors = [
+  { name="Xynon", email="" },
+]
+description = "A simple router / treelib for python."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha"
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+"Homepage" = "https://github.com/Xynonners/simpleroute"
+"Bug Tracker" = "https://github.com/Xynonners/simpleroute/issues"
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
